@@ -1,0 +1,22 @@
+:root {
+  --header-height: 60px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background: #3f51b5;
+  height: var(--header-height);
+}
+
+header .logo {
+  height: var(--header-height);
+}
